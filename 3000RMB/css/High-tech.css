@@ -1,0 +1,255 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Microsoft YaHei";
+}
+
+a {
+  text-decoration: none;
+}
+
+#logo_second {
+  display: none;
+}
+
+.t_logo:after {
+  display: none;
+}
+
+.s_right h3, .s_right h4 {
+  float: left;
+}
+
+.h_second .s_right:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -19px;
+  z-index: 10;
+  background-color: #ECECEC;
+  height: 60px;
+  width: 1px;
+}
+
+.h_second .s_right {
+  top: 0;
+  width: 1028px !important;
+}
+.h_second .s_right h3 p {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.h_second .s_right h3 span {
+  font-size: 12px;
+  color: #999999;
+}
+.h_second .s_right h3 span img {
+  margin-right: 3px;
+}
+.h_second .s_right h4 {
+  position: absolute;
+  right: 0;
+}
+.h_second .s_right h4 span {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 26px;
+  font-weight: 700;
+  color: #F93C31;
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#f93c31), to(#e49222));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.h_second .s_right h4 span img {
+  position: relative;
+  top: 5px;
+  margin-right: 5px;
+}
+.h_second .s_right h4 a {
+  display: inline-block;
+  margin-left: 20px;
+  position: relative;
+  top: 5px;
+  width: 100px;
+  height: 30px;
+  background: #1BA9FC;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 30px;
+}
+.h_second .s_right h4 a img {
+  position: relative;
+  top: 3px;
+  margin-right: 3px;
+}
+
+.moble1 {
+  width: 100%;
+  height: 554px;
+  background: url(../images/server_banner.png) center center no-repeat;
+}
+
+.moble2, .moble3 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.moble3 {
+  text-align: center;
+}
+
+#moble4 {
+  height: 775px;
+  background: url(../images/server_banner3_1.png) center center no-repeat;
+}
+
+.moble4 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.moble4 img {
+  margin-top: 55px;
+}
+
+.moble5 {
+  border: 0;
+  width: 100%;
+  height: 650px;
+  background: #4F555C url(../images/server_banner4.png) center center no-repeat;
+}
+.moble5 .moble5_1 {
+  width: 1200px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+.moble5 .moble5_1 input[type=text] {
+  display: inline-block;
+  height: 38px;
+  background-color: transparent;
+  color: #FFF;
+  text-indent: 5px;
+  border: 1px solid #FFF;
+  width: 500px;
+}
+.moble5 .moble5_1 h2 {
+  font-size: 18px;
+  text-align: center;
+  padding: 45px 0;
+}
+.moble5 .moble5_1 h2:before {
+  content: "";
+  position: absolute;
+  top: 55px;
+  left: 360px;
+  background-color: #ECECEC;
+  height: 1px;
+  width: 100px;
+}
+.moble5 .moble5_1 h2:after {
+  content: "";
+  position: absolute;
+  top: 55px;
+  right: 360px;
+  background-color: #ECECEC;
+  height: 1px;
+  width: 100px;
+}
+.moble5 .moble5_1 ul {
+  font-size: 14px;
+  width: 600px;
+  margin: 0 auto;
+}
+.moble5 .moble5_1 ul li {
+  margin-bottom: 20px;
+}
+.moble5 .moble5_1 ul li .chang {
+  width: 380px;
+}
+.moble5 .moble5_1 ul li span {
+  display: inline-block;
+  width: 90px;
+}
+.moble5 .moble5_1 ul li label {
+  display: block;
+  text-align: center;
+}
+.moble5 .moble5_1 ul li a {
+  color: #E86232;
+}
+.moble5 .moble5_1 ul li a.show {
+  display: block;
+  width: 325px;
+  height: 48px;
+  background: #249BD3;
+  color: #FFF;
+  text-align: center;
+  line-height: 48px;
+  border-radius: 5px;
+  margin: 0 auto;
+}

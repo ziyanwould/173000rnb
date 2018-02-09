@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>layui在线调试</title>
+    <link rel="stylesheet" href="//res.layui.com/layui/dist/css/layui.css?t=1512984638002" media="all">
+    <style>body{margin: 10px;} .demo-carousel{height: 200px; line-height: 200px; text-align: center;}</style></head>
+
+<body>
+<div class="layui-form layui-border-box layui-table-view" lay-filter="LAY-table-1" style=" height:332px;">
+    <div class="layui-table-box">
+        <div class="layui-table-header">
+            <table cellspacing="0" cellpadding="0" border="0" class="layui-table">
+                <thead>
+                <tr>
+                    <th data-field="id">
+                        <div class="layui-table-cell laytable-cell-1-id">
+                            <span>ID</span>
+                            <span class="layui-table-sort layui-inline">
+                  <i class="layui-edge layui-table-sort-asc"></i>
+                  <i class="layui-edge layui-table-sort-desc"></i>
+                </span>
+                        </div>
+                    </th>
+                    <th data-field="username">
+                        <div class="layui-table-cell laytable-cell-1-username">
+                            <span>用户名</span></div>
+                    </th>
+                    <th data-field="sex">
+                        <div class="layui-table-cell laytable-cell-1-sex">
+                            <span>性别</span>
+                            <span class="layui-table-sort layui-inline">
+                  <i class="layui-edge layui-table-sort-asc"></i>
+                  <i class="layui-edge layui-table-sort-desc"></i>
+                </span>
+                        </div>
+                    </th>
+                    <th data-field="city">
+                        <div class="layui-table-cell laytable-cell-1-city">
+                            <span>城市</span></div>
+                    </th>
+                    <th data-field="sign">
+                        <div class="layui-table-cell laytable-cell-1-sign">
+                            <span>签名</span></div>
+                    </th>
+                    <th data-field="experience">
+                        <div class="layui-table-cell laytable-cell-1-experience">
+                            <span>积分</span>
+                            <span class="layui-table-sort layui-inline">
+                  <i class="layui-edge layui-table-sort-asc"></i>
+                  <i class="layui-edge layui-table-sort-desc"></i>
+                </span>
+                        </div>
+                    </th>
+                    <th data-field="score">
+                        <div class="layui-table-cell laytable-cell-1-score">
+                            <span>评分</span>
+                            <span class="layui-table-sort layui-inline">
+                  <i class="layui-edge layui-table-sort-asc"></i>
+                  <i class="layui-edge layui-table-sort-desc"></i>
+                </span>
+                        </div>
+                    </th>
+                    <th data-field="classify">
+                        <div class="layui-table-cell laytable-cell-1-classify">
+                            <span>职业</span></div>
+                    </th>
+                    <th data-field="wealth">
+                        <div class="layui-table-cell laytable-cell-1-wealth">
+                            <span>财富</span>
+                            <span class="layui-table-sort layui-inline">
+                  <i class="layui-edge layui-table-sort-asc"></i>
+                  <i class="layui-edge layui-table-sort-desc"></i>
+                </span>
+                        </div>
+                    </th>
+                    <th data-field="9">
+                        <div class="layui-table-cell laytable-cell-1-9" align="center">
+                            <span></span>
+                        </div>
+                    </th>
+                    <th class="layui-table-patch">
+                        <div class="layui-table-cell" style="width: 17px;"></div>
+                    </th>
+                </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="layui-table-body layui-table-main" style="height: 251px;">
+            <table cellspacing="0" cellpadding="0" border="0" class="layui-table">
+                <tbody>
+                <tr data-index="0">
+                    <td data-field="id">
+                        <div class="layui-table-cell laytable-cell-1-id">10000</div></td>
+                    <td data-field="username">
+                        <div class="layui-table-cell laytable-cell-1-username">user-0</div></td>
+                    <td data-field="sex">
+                        <div class="layui-table-cell laytable-cell-1-sex">女</div></td>
+                    <td data-field="city">
+                        <div class="layui-table-cell laytable-cell-1-city">城市-0</div></td>
+                    <td data-field="sign">
+                        <div class="layui-table-cell laytable-cell-1-sign">签名-0</div></td>
+                    <td data-field="experience">
+                        <div class="layui-table-cell laytable-cell-1-experience">255</div></td>
+                    <td data-field="score">
+                        <div class="layui-table-cell laytable-cell-1-score">57</div></td>
+                    <td data-field="classify">
+                        <div class="layui-table-cell laytable-cell-1-classify">作家</div></td>
+                    <td data-field="wealth">
+                        <div class="layui-table-cell laytable-cell-1-wealth">82830700</div></td>
+                    <td data-field="9" align="center" data-off="true">
+                        <div class="layui-table-cell laytable-cell-1-9">
+                            <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>
+                            <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+                            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a></div>
+                    </td>
+                </tr>
+                <tr data-index="1">
+                    <td data-field="id">
+                        <div class="layui-table-cell laytable-cell-1-id">10001</div></td>
+                    <td data-field="username">
+                        <div class="layui-table-cell laytable-cell-1-username">user-1</div></td>
+                    <td data-field="sex">
+                        <div class="layui-table-cell laytable-cell-1-sex">男</div></td>
+                    <td data-field="city">
+                        <div class="layui-table-cell laytable-cell-1-city">城市-1</div></td>
+                    <td data-field="sign">
+                        <div class="layui-table-cell laytable-cell-1-sign">签名-1</div></td>
+                    <td data-field="experience">
+                        <div class="layui-table-cell laytable-cell-1-experience">884</div></td>
+                    <td data-field="score">
+                        <div class="layui-table-cell laytable-cell-1-score">27</div></td>
+                    <td data-field="classify">
+                        <div class="layui-table-cell laytable-cell-1-classify">词人</div></td>
+                    <td data-field="wealth">
+                        <div class="layui-table-cell laytable-cell-1-wealth">64928690</div></td>
+                    <td data-field="9" align="center" data-off="true">
+                        <div class="layui-table-cell laytable-cell-1-9">
+                            <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>
+                            <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+                            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a></div>
+                    </td>
+                </tr>
+                <tr data-index="2">
+                    <td data-field="id">
+                        <div class="layui-table-cell laytable-cell-1-id">10002</div></td>
+                    <td data-field="username">
+                        <div class="layui-table-cell laytable-cell-1-username">user-2</div></td>
+                    <td data-field="sex">
+                        <div class="layui-table-cell laytable-cell-1-sex">女</div></td>
+                    <td data-field="city">
+                        <div class="layui-table-cell laytable-cell-1-city">城市-2</div></td>
+                    <td data-field="sign">
+                        <div class="layui-table-cell laytable-cell-1-sign">签名-2</div></td>
+                    <td data-field="experience">
+                        <div class="layui-table-cell laytable-cell-1-experience">650</div></td>
+                    <td data-field="score">
+                        <div class="layui-table-cell laytable-cell-1-score">31</div></td>
+                    <td data-field="classify">
+                        <div class="layui-table-cell laytable-cell-1-classify">酱油</div></td>
+                    <td data-field="wealth">
+                        <div class="layui-table-cell laytable-cell-1-wealth">6298078</div></td>
+                    <td data-field="9" align="center" data-off="true">
+                        <div class="layui-table-cell laytable-cell-1-9">
+                            <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>
+                            <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+                            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a></div>
+                    </td>
+                </tr>
+                <tr data-index="3">
+                    <td data-field="id">
+                        <div class="layui-table-cell laytable-cell-1-id">10003</div></td>
+                    <td data-field="username">
+                        <div class="layui-table-cell laytable-cell-1-username">user-3</div></td>
+                    <td data-field="sex">
+                        <div class="layui-table-cell laytable-cell-1-sex">女</div></td>
+                    <td data-field="city">
+                        <div class="layui-table-cell laytable-cell-1-city">城市-3</div></td>
+                    <td data-field="sign">
+                        <div class="layui-table-cell laytable-cell-1-sign">签名-3</div></td>
+                    <td data-field="experience">
+                        <div class="layui-table-cell laytable-cell-1-experience">362</div></td>
+                    <td data-field="score">
+                        <div class="layui-table-cell laytable-cell-1-score">68</div></td>
+                    <td data-field="classify">
+                        <div class="layui-table-cell laytable-cell-1-classify">诗人</div></td>
+                    <td data-field="wealth">
+                        <div class="layui-table-cell laytable-cell-1-wealth">37117017</div></td>
+                    <td data-field="9" align="center" data-off="true">
+                        <div class="layui-table-cell laytable-cell-1-9">
+                            <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>
+                            <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+                            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a></div>
+                    </td>
+                </tr>
+                <tr data-index="4" class="">
+                    <td data-field="id">
+                        <div class="layui-table-cell laytable-cell-1-id">10004</div></td>
+                    <td data-field="username">
+                        <div class="layui-table-cell laytable-cell-1-username">user-4</div></td>
+                    <td data-field="sex">
+                        <div class="layui-table-cell laytable-cell-1-sex">男</div></td>
+                    <td data-field="city">
+                        <div class="layui-table-cell laytable-cell-1-city">城市-4</div></td>
+                    <td data-field="sign">
+                        <div class="layui-table-cell laytable-cell-1-sign">签名-4</div></td>
+                    <td data-field="experience">
+                        <div class="layui-table-cell laytable-cell-1-experience">807</div></td>
+                    <td data-field="score">
+                        <div class="layui-table-cell laytable-cell-1-score">6</div></td>
+                    <td data-field="classify">
+                        <div class="layui-table-cell laytable-cell-1-classify">作家</div></td>
+                    <td data-field="wealth">
+                        <div class="layui-table-cell laytable-cell-1-wealth">76263262</div></td>
+                    <td data-field="9" align="center" data-off="true">
+                        <div class="layui-table-cell laytable-cell-1-9">
+                            <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>
+                            <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+                            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a></div>
+                    </td>
+                </tr>
+                <tr data-index="5" class="">
+                    <td data-field="id">
+                        <div class="layui-table-cell laytable-cell-1-id">10005</div></td>
+                    <td data-field="username">
+                        <div class="layui-table-cell laytable-cell-1-username">user-5</div></td>
+                    <td data-field="sex">
+                        <div class="layui-table-cell laytable-cell-1-sex">女</div></td>
+                    <td data-field="city">
+                        <div class="layui-table-cell laytable-cell-1-city">城市-5</div></td>
+                    <td data-field="sign">
+                        <div class="layui-table-cell laytable-cell-1-sign">签名-5</div></td>
+                    <td data-field="experience">
+                        <div class="layui-table-cell laytable-cell-1-experience">173</div></td>
+                    <td data-field="score">
+                        <div class="layui-table-cell laytable-cell-1-score">87</div></td>
+                    <td data-field="classify">
+                        <div class="layui-table-cell laytable-cell-1-classify">作家</div></td>
+                    <td data-field="wealth">
+                        <div class="layui-table-cell laytable-cell-1-wealth">60344147</div></td>
+                    <td data-field="9" align="center" data-off="true">
+                        <div class="layui-table-cell laytable-cell-1-9">
+                            <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>
+                            <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+                            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a></div>
+                    </td>
+                </tr>
+                <tr data-index="6" class="">
+                    <td data-field="id">
+                        <div class="layui-table-cell laytable-cell-1-id">10006</div></td>
+                    <td data-field="username">
+                        <div class="layui-table-cell laytable-cell-1-username">user-6</div></td>
+                    <td data-field="sex">
+                        <div class="layui-table-cell laytable-cell-1-sex">女</div></td>
+                    <td data-field="city">
+                        <div class="layui-table-cell laytable-cell-1-city">城市-6</div></td>
+                    <td data-field="sign">
+                        <div class="layui-table-cell laytable-cell-1-sign">签名-6</div></td>
+                    <td data-field="experience">
+                        <div class="layui-table-cell laytable-cell-1-experience">982</div></td>
+                    <td data-field="score">
+                        <div class="layui-table-cell laytable-cell-1-score">34</div></td>
+                    <td data-field="classify">
+                        <div class="layui-table-cell laytable-cell-1-classify">作家</div></td>
+                    <td data-field="wealth">
+                        <div class="layui-table-cell laytable-cell-1-wealth">57768166</div></td>
+                    <td data-field="9" align="center" data-off="true">
+                        <div class="layui-table-cell laytable-cell-1-9">
+                            <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>
+                            <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+                            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a></div>
+                    </td>
+                </tr>
+                <tr data-index="7" class="">
+                    <td data-field="id">
+                        <div class="layui-table-cell laytable-cell-1-id">10007</div></td>
+                    <td data-field="username">
+                        <div class="layui-table-cell laytable-cell-1-username">user-7</div></td>
+                    <td data-field="sex">
+                        <div class="layui-table-cell laytable-cell-1-sex">男</div></td>
+                    <td data-field="city">
+                        <div class="layui-table-cell laytable-cell-1-city">城市-7</div></td>
+                    <td data-field="sign">
+                        <div class="layui-table-cell laytable-cell-1-sign">签名-7</div></td>
+                    <td data-field="experience">
+                        <div class="layui-table-cell laytable-cell-1-experience">727</div></td>
+                    <td data-field="score">
+                        <div class="layui-table-cell laytable-cell-1-score">28</div></td>
+                    <td data-field="classify">
+                        <div class="layui-table-cell laytable-cell-1-classify">作家</div></td>
+                    <td data-field="wealth">
+                        <div class="layui-table-cell laytable-cell-1-wealth">82030578</div></td>
+                    <td data-field="9" align="center" data-off="true">
+                        <div class="layui-table-cell laytable-cell-1-9">
+                            <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>
+                            <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+                            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a></div>
+                    </td>
+                </tr>
+                <tr data-index="8" class="">
+                    <td data-field="id">
+                        <div class="layui-table-cell laytable-cell-1-id">10008</div></td>
+                    <td data-field="username">
+                        <div class="layui-table-cell laytable-cell-1-username">user-8</div></td>
+                    <td data-field="sex">
+                        <div class="layui-table-cell laytable-cell-1-sex">男</div></td>
+                    <td data-field="city">
+                        <div class="layui-table-cell laytable-cell-1-city">城市-8</div></td>
+                    <td data-field="sign">
+                        <div class="layui-table-cell laytable-cell-1-sign">签名-8</div></td>
+                    <td data-field="experience">
+                        <div class="layui-table-cell laytable-cell-1-experience">951</div></td>
+                    <td data-field="score">
+                        <div class="layui-table-cell laytable-cell-1-score">14</div></td>
+                    <td data-field="classify">
+                        <div class="layui-table-cell laytable-cell-1-classify">词人</div></td>
+                    <td data-field="wealth">
+                        <div class="layui-table-cell laytable-cell-1-wealth">16503371</div></td>
+                    <td data-field="9" align="center" data-off="true">
+                        <div class="layui-table-cell laytable-cell-1-9">
+                            <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>
+                            <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+                            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a></div>
+                    </td>
+                </tr>
+                <tr data-index="9" class="">
+                    <td data-field="id">
+                        <div class="layui-table-cell laytable-cell-1-id">10009</div></td>
+                    <td data-field="username">
+                        <div class="layui-table-cell laytable-cell-1-username">user-9</div></td>
+                    <td data-field="sex">
+                        <div class="layui-table-cell laytable-cell-1-sex">女</div></td>
+                    <td data-field="city">
+                        <div class="layui-table-cell laytable-cell-1-city">城市-9</div></td>
+                    <td data-field="sign">
+                        <div class="layui-table-cell laytable-cell-1-sign">签名-9</div></td>
+                    <td data-field="experience">
+                        <div class="layui-table-cell laytable-cell-1-experience">484</div></td>
+                    <td data-field="score">
+                        <div class="layui-table-cell laytable-cell-1-score">75</div></td>
+                    <td data-field="classify">
+                        <div class="layui-table-cell laytable-cell-1-classify">词人</div></td>
+                    <td data-field="wealth">
+                        <div class="layui-table-cell laytable-cell-1-wealth">86801934</div></td>
+                    <td data-field="9" align="center" data-off="true">
+                        <div class="layui-table-cell laytable-cell-1-9">
+                            <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>
+                            <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+                            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a></div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="layui-table-fixed layui-table-fixed-l">
+            <div class="layui-table-header">
+                <table cellspacing="0" cellpadding="0" border="0" class="layui-table">
+                    <thead>
+                    <tr>
+                        <th data-field="id">
+                            <div class="layui-table-cell laytable-cell-1-id">
+                                <span>ID</span>
+                                <span class="layui-table-sort layui-inline">
+                    <i class="layui-edge layui-table-sort-asc"></i>
+                    <i class="layui-edge layui-table-sort-desc"></i>
+                  </span>
+                            </div>
+                        </th>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+
+        </div>
+        <div class="layui-table-fixed layui-table-fixed-r" style="right: 16px;">
+            <div class="layui-table-header">
+                <table cellspacing="0" cellpadding="0" border="0" class="layui-table">
+                    <thead>
+                    <tr>
+                        <th data-field="9">
+                            <div class="layui-table-cell laytable-cell-1-9" align="center">
+                                <span></span>
+                            </div>
+                        </th>
+                    </tr>
+                    </thead>
+                </table>
+                <div class="layui-table-mend"></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="layui-table-page">
+        <div id="layui-table-page1">
+            <div class="layui-box layui-laypage layui-laypage-default" id="layui-laypage-2">
+                <a href="javascript:;" class="layui-laypage-prev layui-disabled" data-page="0">
+                    <i class="layui-icon"></i></a>
+                <span class="layui-laypage-curr">
+          <em class="layui-laypage-em"></em>
+          <em>1</em></span>
+                <a href="javascript:;" data-page="2">2</a>
+                <a href="javascript:;" data-page="3">3</a>
+                <span class="layui-laypage-spr">…</span>
+                <a href="javascript:;" class="layui-laypage-last" title="尾页" data-page="100">100</a>
+                <a href="javascript:;" class="layui-laypage-next" data-page="2">
+                    <i class="layui-icon"></i></a>
+                <span class="layui-laypage-skip">到第
+          <input type="text" min="1" value="1" class="layui-input">页
+          <button type="button" class="layui-laypage-btn">确定</button></span>
+                <span class="layui-laypage-count">共 1000 条</span>
+                <span class="layui-laypage-limits">
+          <select lay-ignore="">
+            <option value="10" selected="">10 条/页</option>
+            <option value="20">20 条/页</option>
+            <option value="30">30 条/页</option>
+            <option value="40">40 条/页</option>
+            <option value="50">50 条/页</option>
+            <option value="60">60 条/页</option>
+            <option value="70">70 条/页</option>
+            <option value="80">80 条/页</option>
+            <option value="90">90 条/页</option></select>
+        </span>
+            </div>
+        </div>
+    </div>
+
+    <style>.laytable-cell-1-id{ width: 80px; }.laytable-cell-1-username{ width: 80px; }.laytable-cell-1-sex{ width: 80px; }.laytable-cell-1-city{ width: 80px; }.laytable-cell-1-sign{ width: 170px; }.laytable-cell-1-experience{ width: 80px; }.laytable-cell-1-score{ width: 80px; }.laytable-cell-1-classify{ width: 80px; }.laytable-cell-1-wealth{ width: 135px; }.laytable-cell-1-9{ width: 165px; }</style></div>
+</body>
+
+</html>
